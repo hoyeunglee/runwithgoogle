@@ -1,4 +1,3 @@
 # runwithgoogle
 
-download searcheveryday.bat
-Double Click searcheveryday.bat
+download searcheveryday.bat and Double Click searcheveryday.bat
