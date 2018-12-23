@@ -35,4 +35,33 @@ search.send_keys("ironman ps4 pro")
 search.send_keys(Keys.RETURN) # hit return after you enter search text
 time.sleep(5) # sleep for 5 seconds so you can see the results
 
+search = browser.find_element_by_name('q')
+search.clear()
+search.send_keys("transparent monitor computer")
+search.send_keys(Keys.RETURN) # hit return after you enter search text
+time.sleep(5) # sleep for 5 seconds so you can see the results
+
+search = browser.find_element_by_name('q')
+search.clear()
+search.send_keys("computer glasses")
+search.send_keys(Keys.RETURN) # hit return after you enter search text
+time.sleep(5) # sleep for 5 seconds so you can see the results
+
+search = browser.find_element_by_name('q')
+search.clear()
+search.send_keys("The most accurate voice recogition python library")
+search.send_keys(Keys.RETURN) # hit return after you enter search text
+time.sleep(5) # sleep for 5 seconds so you can see the results
+
+search = browser.find_element_by_name('q')
+search.clear()
+search.send_keys("deep learning trained model for download to use")
+search.send_keys(Keys.RETURN) # hit return after you enter search text
+time.sleep(5) # sleep for 5 seconds so you can see the results
+
+search = browser.find_element_by_name('q')
+search.clear()
+search.send_keys("finger motion detection")
+search.send_keys(Keys.RETURN) # hit return after you enter search text
+time.sleep(5) # sleep for 5 seconds so you can see the results
 browser.quit()
