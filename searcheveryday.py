@@ -61,6 +61,12 @@ time.sleep(5) # sleep for 5 seconds so you can see the results
 
 search = browser.find_element_by_name('q')
 search.clear()
-search.send_keys("finger motion detection")
+search.send_keys("cv2 finger motion detection")
+search.send_keys(Keys.RETURN) # hit return after you enter search text
+time.sleep(5) # sleep for 5 seconds so you can see the results
+
+search = browser.find_element_by_name('q')
+search.clear()
+search.send_keys("cv2 hand motion detection")
 search.send_keys(Keys.RETURN) # hit return after you enter search text
 time.sleep(5) # sleep for 5 seconds so you can see the results
