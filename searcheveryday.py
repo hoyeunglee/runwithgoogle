@@ -82,3 +82,15 @@ search.clear()
 search.send_keys("python similar semantic sentences group database")
 search.send_keys(Keys.RETURN) # hit return after you enter search text
 time.sleep(5) # sleep for 5 seconds so you can see the results
+
+search = browser.find_element_by_name('q')
+search.clear()
+search.send_keys("trained different hand haar cascade xml for download")
+search.send_keys(Keys.RETURN) # hit return after you enter search text
+time.sleep(5) # sleep for 5 seconds so you can see the results
+
+search = browser.find_element_by_name('q')
+search.clear()
+search.send_keys("trained hand haar cascade xml for download")
+search.send_keys(Keys.RETURN) # hit return after you enter search text
+time.sleep(5) # sleep for 5 seconds so you can see the results
